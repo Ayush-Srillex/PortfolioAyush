@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Research Works</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Professional</strong> <span>Portfolio</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="landing.html">Professional Projects</a></li>
+							<li><a href="generic.html">Research Work</a></li>
+							<li><a href="elements.html">Academic Projects</a></li>
+							<li><a href="elements.html">Extra Curricular Interests</a></li>
+						</ul>
+						<!--
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>
+						-->
+					</nav>
+
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Autonomous Vehicle Safety Simulation</h1>
+										<h2>Risk-aware Safe Control for Multi-agent Systems via Dynamic Responsibility Allocation</h2>
+										<h3>Research Assistant to Prof. John Dolan @ CMU, Pittsburgh PA</h3>
+									</header>
+									<span class="image main"><img src="images/ros2.png" alt="" /></span>
+									<p>Built on research works of <a href="https://scholar.google.com.hk/citations?user=jGNvKs8AAAAJ&hl=en">Yiwei Lyu</a>, this research presents a risk-aware decentralized control framework that provides guidance on how much relative responsibility share (a percentage) an individual agent should take to avoid collisions with others while moving efficiently without direct communications. The research proposes a novel Control Barrier Function (CBF)-inspired risk measurement to characterize the aggre- gate risk agents face from potential collisions under motion uncertainty. It uses this measurement to allocate responsibility shares among agents dynamically and develop risk-aware de- centralized safe controllers</p>
+									<p>My contribution to this research deals with simulating the risk aware safe control in a ramp merging scenario of 2 agents, one implementing the CBF control and the other driven by an unknown agent. The simulation is done using Improved Robotic Operating System (ROS2) built in Python and Linux OS. The simulation presents multiple scenarios to the Autonomous vehicle and validates the safety guarantee proposed in the original research. </p>
+									<p>My contribution also extends towards buidling a model to predict the altruistic nature of oppostie vehicle and learn CBF activation threshold. This will basically allow the Autonomous vehicle to learn human behaviour on the go and activate safety measures only when required rather than at all times, to accelerate vehicle's process of acheiving its central objective</p>
+								</div>
+							</section>
+
+					</div>
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Predictive Life Model for Rotary Machinery</h1>
+										<h3>RResearch Thesis with Supervisors- Prof. SP Singh and Prof. AK Darpe @ IIT Delhi</h3>
+									</header>
+									<span class="image main"><img src="images/bearing.png" alt="" /></span>
+								<p>The thesis attempts to build Exponential Degradation Model (EDM) by extracting a
+									monotonic Health Indicator from multiple time and spectral features of vibration data
+									(using PCA based Dimensionality Reduction.) EDM assumes an underlying exponential
+									function to fit the degradation of bearing.</p>
+								<!--<img src="images/CodeCogsEqn.svg" alt="" />	-->
+								<p>The thesis also attempts to examine Fuzzy C-Means clustering algorithm instead of K-
+									Means clustering. Fuzzy C-Means assigns multiple clusters to a single data point, thus
+									removing the high ambiguity of mid points in K-Means. The differentiation between the
+									two algorithms is made by implementing both with EDM and then comparing the root
+									mean square error obtained. It is expected that Fuzzy C-Means will produce less error
+									than K-Means but will be more time consuming since a test bearing will have to be tested
+									on all models formed and not just the one assigned by K-Means.</p>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Contact -->
+				<section id="contact">
+					<div class="inner">
+						<!--<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="6"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="primary" /></li>
+									<li><input type="reset" value="Clear" /></li>
+								</ul>
+							</form>
+						</section>
+					-->
+						<section class>
+							<section>
+								<div class="contact-method">
+									<span class="icon solid alt fa-envelope"></span>
+									<h3>Email</h3>
+									<a href="#">ayushsri@andrew.cmu.edu</a>
+								</div>
+							</section>
+							<section>
+								<div class="contact-method">
+									<span class="icon solid alt fa-phone"></span>
+									<h3>Phone</h3>
+									<span>(412)-287-0722</span>
+								</div>
+							</section>
+							<section>
+								<div class="contact-method">
+									<span class="icon solid alt fa-home"></span>
+									<h3>Address</h3>
+									<span>5863 Hobart Street<br />
+									Pittsburgh, PA- 15217<br />
+									United States of America</span>
+								</div>
+							</section>
+						</section>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="https://github.com/Ayush-Srillex" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/ayushsri0610/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Ayush Srivastava</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+		</div>
+
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+</body>
+</html>
